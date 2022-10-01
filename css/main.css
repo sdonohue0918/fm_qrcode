@@ -7,15 +7,15 @@ body {
 .card {
     position: relative;
     background-color: white;
-    width: 15rem;
+    width: 20rem;
     margin: 10rem auto 0;
     border-radius: 15px;
-    height: 23rem;
+    height: 32rem;
     
 }
 
 .card__qrcode {
-    width: 13rem;
+    width: 18rem;
     border-radius: 12px;
     position: relative;
     margin: 1rem 3rem 0 1rem;
@@ -29,7 +29,7 @@ body {
     text-align: center;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0 1rem;
 }
 
@@ -37,6 +37,6 @@ body {
     text-align: center;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: .75rem;
+    font-size: 1rem;
     padding: 0 1rem;
 }
