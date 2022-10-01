@@ -40,3 +40,16 @@ body {
     font-size: 1rem;
     padding: 0 1rem;
 }
+
+
+@media(max-width: 375px){
+    .card {
+        position: relative;
+        background-color: white;
+        width: 20rem;
+        margin: 10% 7% 0;
+        border-radius: 15px;
+        height: 32rem;
+        
+    }
+}
