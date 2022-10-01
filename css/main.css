@@ -8,9 +8,9 @@ body {
     position: relative;
     background-color: hsl(0, 0%, 100%);
     width: 20rem;
-    margin: 10rem auto 0;
+    margin: 10rem auto;
     border-radius: 15px;
-    height: 32rem;
+    height: 33rem;
     
 }
 
