@@ -15,7 +15,7 @@ body {
 }
 
 .card__qrcode {
-    width: 18rem;
+    width: 90%;
     border-radius: 12px;
     position: relative;
     margin: 1rem 3rem 0 1rem;
@@ -46,10 +46,22 @@ body {
     .card {
         position: relative;
         background-color: white;
-        width: 20rem;
-        margin: 10% 7% 0;
+        width: 15rem;
+        margin: 10vh auto;
         border-radius: 15px;
-        height: 32rem;
+        height: 25rem;
         
+    }
+
+    .card__qrcode {
+        width: 86%;
+    }
+
+    .card__header {
+        font-size: 1rem;
+    }
+
+    .card__paragraph {
+        font-size: .75rem;
     }
 }
