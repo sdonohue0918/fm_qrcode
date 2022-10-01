@@ -6,7 +6,7 @@ body {
 
 .card {
     position: relative;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     width: 20rem;
     margin: 10rem auto 0;
     border-radius: 15px;
@@ -45,7 +45,7 @@ body {
 @media(max-width: 375px){
     .card {
         position: relative;
-        background-color: white;
+        background-color: hsl(0, 0%, 100%);
         width: 15rem;
         margin: 10vh auto;
         border-radius: 15px;
