@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(215, 231, 247);
+    background-color: hsl(212, 45%, 89%);
 }
 
 
@@ -9,22 +9,34 @@ body {
     background-color: white;
     width: 15rem;
     margin: 10rem auto 0;
-    border-radius: 20px;
-    height: 25rem;
+    border-radius: 15px;
+    height: 23rem;
     
 }
 
 .card__qrcode {
     width: 13rem;
-    border-radius: 15px;
+    border-radius: 12px;
     position: relative;
     margin: 1rem 3rem 0 1rem;
 }
 
+.text {
+    font-family: 'Outfit', sans-serif;
+}
+
 .card__header {
     text-align: center;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 1rem;
+    padding: 0 1rem;
 }
 
 .card__paragraph {
     text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: .75rem;
+    padding: 0 1rem;
 }
